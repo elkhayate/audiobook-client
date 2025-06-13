@@ -7,7 +7,7 @@ import { AppLayout } from "@/components/layout/AppLayout";
 import { FileUploader } from "@/components/upload/FileUploader";
 import { UploadProgress } from "@/components/upload/UploadProgress";
 import { UploadResult } from "@/components/upload/UploadResult";
-import { toast } from "react-hot-toast";
+import { toast } from "react-toastify";
 import { getAuthHeader } from "@/lib/supabase/client";
 
 interface UploadResponse {

@@ -3,7 +3,7 @@
 import { useCallback, useState } from "react";
 import { Button } from "@nextui-org/react";
 import { Upload, FileText, X } from "lucide-react";
-import { toast } from "react-hot-toast";
+import { toast } from "react-toastify";
 
 interface FileUploaderProps {
   onFileSelect: (file: File | null) => void;

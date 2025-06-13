@@ -2,7 +2,7 @@
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { getAuthHeader } from "@/lib/supabase/client";
-import { toast } from "react-hot-toast";
+import { toast } from "react-toastify";
 import React from "react";
 import { supabase } from "@/lib/supabase/client";
 
