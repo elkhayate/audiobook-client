@@ -2,6 +2,8 @@
 
 A modern web application for converting text to speech and managing audiobooks. Built with Next.js, TypeScript, and NextUI.
 
+[Backend Repository](https://github.com/elkhayate/audiobook-api)
+
 ## Features
 
 ### Authentication
